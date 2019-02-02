@@ -12,7 +12,7 @@ if (isset($_POST['submit'])){
 
 		session_start();
 
-		include ("validar.php");
+		include ("bienvenido.php");
 
 	}
 }
