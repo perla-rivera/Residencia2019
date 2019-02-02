@@ -9,7 +9,7 @@ $_SESSION['usuario'] = $usuario;
 //conexion de la BD 
 
 $conexion= mysqli_connect("localhost","root","","usuariosalfra");
-$consulta="SELECT * from usuarios WHERE usuario  = 'adrian' and clave ='adrian'";
+$consulta="SELECT * from usuarios WHERE usuario  = '$usuario' and clave ='$clave'";
 
 $resultado = MySQLi_query($conexion, $consulta);
 $fila=MySQLi_num_rows($resultado);
