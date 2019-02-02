@@ -1,0 +1,54 @@
+body{
+	background-image: url(Fondo2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0px 0px;
+	background-attachment: fixed;
+	font-family: Arial;
+}
+
+h2{
+	color: white;
+}
+
+
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	margin: auto;
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 80%;
+	opacity: 0.8;
+}
+
+th, td {
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+tr:nth-child(1){
+	background-color: #045FB4;
+}
+
+tr:nth-child(even){
+	background-color: #BECFDC;
+}
+
+tr:hover td{
+	background-color: #115994;
+	color: white;
+
+}
+a{
+	color: white;
+}
