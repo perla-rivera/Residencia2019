@@ -11,8 +11,9 @@ if (isset($_POST['submit'])){
 	if (!empty($usuario) and !empty($clave)) { 
 
 		session_start();
+		header("location:bienvenido.php");
 
-		include ("bienvenido.php");
+		
 
 	}
 }
